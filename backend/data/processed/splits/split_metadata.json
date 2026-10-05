@@ -1,0 +1,33 @@
+{
+  "random_state": 42,
+  "split_proportions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "source_dataset": "E:\\VitaMap---ResumeForge-Hackathon\\backend\\data\\raw\\Resume.csv",
+  "number_of_records_before_cleaning": 2484,
+  "number_after_empty_handling": 2483,
+  "number_after_duplicate_handling": 2481,
+  "final_clean_records": 2481,
+  "final_class_count": 24,
+  "recovered_ids": [],
+  "unrecoverable_ids": [
+    12632728
+  ],
+  "duplicate_ids_removed": [
+    28398216,
+    37473139
+  ],
+  "split_counts": {
+    "train": 1736,
+    "validation": 372,
+    "test": 373
+  },
+  "leakage_verification": {
+    "id_overlap": 0,
+    "text_overlap": 0,
+    "learned_transformations_fitted": false,
+    "external_pdf_only_records_excluded": 16
+  }
+}

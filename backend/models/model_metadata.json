@@ -1,0 +1,60 @@
+{
+  "model_name": "linear_svc",
+  "experiment_id": "EXP_03",
+  "description": "Var A + Unigram + LinearSVC",
+  "preprocessing_variant": "A",
+  "tfidf_config": "A",
+  "tfidf_parameters": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true
+  },
+  "class_labels": [
+    "ACCOUNTANT",
+    "ADVOCATE",
+    "AGRICULTURE",
+    "APPAREL",
+    "ARTS",
+    "AUTOMOBILE",
+    "AVIATION",
+    "BANKING",
+    "BPO",
+    "BUSINESS-DEVELOPMENT",
+    "CHEF",
+    "CONSTRUCTION",
+    "CONSULTANT",
+    "DESIGNER",
+    "DIGITAL-MEDIA",
+    "ENGINEERING",
+    "FINANCE",
+    "FITNESS",
+    "HEALTHCARE",
+    "HR",
+    "INFORMATION-TECHNOLOGY",
+    "PUBLIC-RELATIONS",
+    "SALES",
+    "TEACHER"
+  ],
+  "random_state": 42,
+  "training_row_count": 1736,
+  "validation_row_count": 372,
+  "test_row_count": 373,
+  "validation_metrics": {
+    "accuracy": 0.6478,
+    "macro_precision": 0.6675,
+    "macro_recall": 0.6176,
+    "macro_f1": 0.6165,
+    "weighted_f1": 0.6343
+  },
+  "test_metrics": {
+    "accuracy": 0.6863270777479893,
+    "macro_precision": 0.7193962643685073,
+    "macro_recall": 0.6629060652038593,
+    "macro_f1": 0.6658105351786462,
+    "weighted_f1": 0.6757173623226939
+  }
+}
