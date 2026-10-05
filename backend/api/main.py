@@ -1,7 +1,7 @@
 """
 FastAPI application entrypoint for VitaMap ResumeForge.
 
-Thin HTTP layer only — all inference logic lives in backend.src.predict.
+Thin HTTP layer only — all inference logic lives in src.predict.
 """
 
 from fastapi import FastAPI, HTTPException
